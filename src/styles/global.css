@@ -100,6 +100,29 @@ h4 {
   opacity: 1;
 }
 
+/* ********** Buttons ********** */
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Rajdhani", sans-serif;
+  color: var(--white);
+  background-color: var(--purple);
+  border: solid 1px var(--cyan);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: var(--cyan);
+  color: var(--black);
+}
+
 /* ********** Landing Page ********* */
 
 .landing {

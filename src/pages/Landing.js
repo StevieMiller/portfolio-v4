@@ -6,6 +6,7 @@ export default function Landing() {
         I'm a full-stack web developer focused on creating user experiences that
         are intuitive, efficient, and aesthetically pleasing
       </p>
+      <button className="btn">Projects</button>
     </section>
   );
 }
